@@ -1,0 +1,9 @@
+.collapse:not(.show) {
+    display: inline-block;
+	
+}
+
+.panel-body{
+	margin-bottom: 30px;
+	
+}

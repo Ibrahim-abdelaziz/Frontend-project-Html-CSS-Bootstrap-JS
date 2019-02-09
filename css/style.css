@@ -1,0 +1,303 @@
+
+/* start navbar */
+
+h5{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.nav1{
+	background-color: #000;
+}
+
+.navbar{
+	
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+
+.navbar a{
+	color: #FFF;
+}
+
+
+.navbar .navbar-brand{
+	color: red;
+	font-weight: bold;
+}
+
+.active{
+	background: #F00;
+}
+/* End navbar  */
+ 
+/* start option-box */
+
+.option-box{
+	position: fixed;
+	top: 90px;
+	left: 0;
+	z-index: 9999;
+	
+}
+
+.option-box h4{
+	font-size: 20px;
+}
+.option-box .color-option{
+	float: left;
+	background: #333;
+	color: #FFF;
+	padding: 5px;
+	width: 150px;
+	border: 4px solid #E41B17;
+	text-align: center;
+	display: none;
+}
+
+.option-box .color-option ul li{
+	width: 20px;
+	height: 20px;
+	background: #F00;
+	display:inline-block; 
+	
+}
+
+.option-box .gear-check{
+	padding: 5px;
+	background: #E41B17;
+	color: #FFF;
+	cursor: pointer;
+}
+
+/* End option-box */
+
+/* start section subscribe */
+
+.subscribe{
+	padding-top: 30px;
+	padding-bottom: 40px;
+	background-color: #EEE;
+
+}
+
+.subscribe h1{
+	color: #999;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+ 
+.subscribe .form-control{
+	max-width: 250px;
+	margin:0 auto;
+}
+
+.subscribe button{
+	position: relative;
+	bottom: 38px;
+	margin-left: 300px;
+	
+}
+ /* End section subscribe */
+ 
+ /* start static */
+ 
+.static{
+	background-image:url("../ddd.png");
+	
+}
+ 
+.static .data{
+	background-color: rgba(3,3,3,0.2);
+	padding-top:20px;
+	padding-bottom: 20px;
+	
+}
+ 
+
+.static h1{
+	margin-bottom: 40px;
+	color: #2d2d2d;
+	letter-spacing: 2px;
+}
+
+.static .stats{
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+	margin-bottom: 30px;
+}
+
+.static .stats:hover{
+	color: #FFF;
+}
+
+
+.static p{
+	font-weight: bold;
+	font-size: 40px;
+	color: #222;
+	margin-bottom: 0;
+}
+
+.static p:hover{
+	color: #FFF;
+}
+ /* End static */
+
+ /* Start Skills */ 
+.our_skills{
+	padding-top:40px;
+	padding-bottom: 70px;
+}
+
+.our_skills h1{
+	margin-bottom: 30px;
+}
+
+.our_skills h4{
+	font-weight:bold;
+}
+
+.our_skills .progress{
+	height:30px;
+	margin-bottom:8px;
+}
+
+ /* End Skills */
+ 
+  /* start contact us */
+.contact p{
+	margin-bottom: 30px;
+}
+.contact .fields{
+	background-color:#333;
+	min-height: 400px;
+	color: #FFF;
+}
+
+.contact input{
+	margin-bottom: 12px;
+	background: rgba(82,87,87,0.7);
+	border:none;
+	color:#FFF;
+}
+
+.contact textarea{
+	height: 90px;
+	margin-bottom: 15px;
+	background: rgba(82,78,78,0.7);
+	border:none;
+	color:#FFF;
+}
+  /* End ccontact us */
+ 
+ /* start our client */
+ 
+.our-client{
+	background: #EEE;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+.our-client li{
+	float: left;
+	width: 30%;
+}
+
+.our-client img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	opacity: 0.4;
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+
+@media(max-width:768px)
+{
+	.our-client{
+		width: 100%;
+		padding: 5px;
+	}
+	
+}
+
+ 
+.our-client img:hover{
+	opacity: 1
+}
+	
+ /* End our client */
+ 
+ /* start footer */
+ 
+.footer{
+	background: #333;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #AAA;
+}
+
+.footer h3{
+	color:#0895D1;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+}
+
+.footer h5{
+	padding-left: 8px;
+	padding-top: 5px;
+}
+
+.footer img{
+	padding-top: 10px;
+}
+
+.footer .three-colunms{
+	overflow: hidden;
+	
+}
+
+.footer .three-colunms li{
+	float: left;
+	padding:10px 0;
+	margin: 5px;
+}
+
+.footer .img-thumbnail{
+	margin: 5px;
+	padding-top: 5px;
+}
+
+.footer .media{
+	margin: 7px;
+}
+
+.copy{
+	background: #222;
+	color: #AAA;
+	padding: 17px 0;
+	font-size: 15px;
+}
+
+.copy span{
+	color: #0895D1;
+}
+
+ /* End footer */
+ 
+ /* Start scroll */
+ #scroll-top{
+	width:50px;
+	color: #888;
+	background: #272727;
+	position: fixed;
+	right:15px;
+	bottom: 7px;
+	text-align: center;
+	cursor: pointer;
+ }
+ 
+ /* End scroll */
